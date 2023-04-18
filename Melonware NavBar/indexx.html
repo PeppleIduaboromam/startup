@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            text-decoration: none;
-        }
+      * {
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        background-color: orangered;
+        justify-content: space-between;
+        align-items: center;
+      }
+      body {
+        background-color: peru;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+      }
+      li {
+        padding: 18px;
+      }
+      a {
+        color: black;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <a href="#">Logo</a>
+      <a href="#">Home</a>
+      <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Users</a></li>
+        <li><a href="#">Cart</a></li>
+      </ul>
     </nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Account</a></li>
-        <li><a href="#">Help</a></li>
-    </ul>
-</body>
+  </body>
 </html>
